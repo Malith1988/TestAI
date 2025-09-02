@@ -7,3 +7,22 @@
     background-color: #218838; /* A slightly darker green for hover */
     border-color: #1e7e34;
 }
+
+.btn-primary:disabled {
+    background-color: #a3d9a5; /* Light green for disabled state */
+    border-color: #a3d9a5;
+    color: #ffffff;
+}
+
+.btn-blinking {
+    animation: blink 0.5s 2; /* Run the animation twice for a 1-second blink */
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

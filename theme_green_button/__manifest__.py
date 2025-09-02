@@ -8,6 +8,7 @@
     'assets': {
         'web.assets_backend': [
             'theme_green_button/static/src/css/custom.css',
+            'theme_green_button/static/src/js/save_button_animation.js',
         ],
     },
     'installable': True,
